@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class HelloControllerTest {
     @Test
-    public void getHello() throws Exception {
+    public void getHello() {
         assertEquals(
                 new HelloController().index(),
                 "Greetings from Spring Boot!"
