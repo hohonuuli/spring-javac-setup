@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring.javac.iml" filepath="$PROJECT_DIR$/spring.javac.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web.hello/web.hello.iml" filepath="$PROJECT_DIR$/web.hello/web.hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web.hello.test/web.hello.test.iml" filepath="$PROJECT_DIR$/web.hello.test/web.hello.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web.util/web.util.iml" filepath="$PROJECT_DIR$/web.util/web.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web.util.test/web.util.test.iml" filepath="$PROJECT_DIR$/web.util.test/web.util.test.iml" />
+    </modules>
+  </component>
+</project>
