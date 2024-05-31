@@ -37,6 +37,16 @@ package: compile
 run: package
     java --module-path libs:build/jar --module web.hello
 
+jdeps: package
+    jdeps --module-path libs:build/jar --module web.hello --multi-release 21
+
+jlink: package
+    jlink \
+        --module-path "$$JAVA_HOME/jmods:libs:build/jar" \
+        --add-modules web.hello,web.util \
+        --output build/jlink \
+        --launcher web.hello=web.hello
+
 document:
     javadoc \
         -d build/javadoc \
